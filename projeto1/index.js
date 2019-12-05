@@ -1,9 +1,16 @@
 var http = require('http');
+var handle = require('./handle');
 
-function handle(request, response){
+var events = require('events');
+var emiter = new events.EventEmitter();
 
-	response.end('hello from http module');
+emiter.on('say-exec', say);
+
+function say(){
+	console.log('Im saying...');
 }
+
+emiter.emit('say-exec');
 
 var server = http.createServer(handle);
 server.listen(3000,function(){
