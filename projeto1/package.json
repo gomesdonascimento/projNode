@@ -10,5 +10,6 @@
     "nodejs"
   ],
   "author": "Emerson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
