@@ -11,5 +11,7 @@
   ],
   "author": "Emerson",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "websocket": "^1.0.31"
+  }
 }

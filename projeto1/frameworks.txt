@@ -1,0 +1,4 @@
+-Express.js
+-sails.js -> fazer cruds(ORM)
+-Hapi.js -> mensagerias,autenticação,login,documentação,localização,etc...
+
